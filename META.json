@@ -4,7 +4,7 @@
       "Sebastien Aperghis-Tramoni <sebastien@aperghis.net>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "Module::Build version 0.4002, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -22,7 +22,7 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build" : "0.40"
          }
       },
       "runtime" : {
@@ -35,7 +35,7 @@
    "provides" : {
       "Device::TLSPrinter" : {
          "file" : "lib/Device/TLSPrinter.pm",
-         "version" : "0.50"
+         "version" : "0.51"
       },
       "Device::TLSPrinter::Network" : {
          "file" : "lib/Device/TLSPrinter/Network.pm",
@@ -46,7 +46,10 @@
    "resources" : {
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "url" : "https://github.com/maddingue/Device-TLSPrinter.git"
+      }
    },
-   "version" : "0.50"
+   "version" : "0.51"
 }
